@@ -12,7 +12,7 @@ PS4_Controller ps4c;
 PPTX_Controller pptx;
 
 void Setup(AlxWindow* w){
-	AlxFont_Resize(&window.AlxFont,16,16);
+	AlxFont_Resize(&window.font,16,16);
 
 	player = Rect_New((Vec2){ 1.0f,1.0f },(Vec2){ 1.0f,2.0f });
 
